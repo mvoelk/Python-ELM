@@ -69,7 +69,7 @@ Transfer functions provided are:
 *	inv_multiquadric
 
 MLPRandomLayer and RBFRandomLayer classes are just wrappers around the RandomLayer class, with the _alpha_ mixing parameter set to 1.0 and 0.0 respectively (for 100% MLP input activation, or 100% RBF input activation)
-	
+
 The RandomLayer, MLPRandomLayer, RBFRandomLayer classes can take a callable user
 provided transfer function.  See the docstrings and the example ipython
 notebook for details.
@@ -96,7 +96,7 @@ An IPython notebook, illustrating several ways to use the __\*ELM\*__ and __\*Ra
 Requirements
 ------------
 
-Written using Python 2.7.3, numpy 1.6.1, scipy 0.10.1, scikit-learn 0.13.1 and ipython 0.12.1
+Written using Python 3.5.2, numpy 1.12.1, scipy 0.19.0, scikit-learn 0.18.2 and jupyter 2.4.1
 
 References
 ----------
